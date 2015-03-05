@@ -160,6 +160,7 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 // Use charAt() to console.log the 'v' in str1.
 
 
+
 // Use indexOf() to console.log the index of 'm' in str2.
 
 
@@ -175,6 +176,8 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 //STUDENT ACTIVITY 1:
 // Use substr() to console.log 'JavaScript!' from str1.
+console.log(str1.substr(7,11));
+
 
 
 // Use concat() to console.log 'I love JavaScript ! JavaScript loves me!' with str1 and str2.
