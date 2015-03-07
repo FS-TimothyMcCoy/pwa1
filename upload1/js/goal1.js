@@ -329,16 +329,14 @@ if (weather === sunny ) {
         - else bobsMood = "sad"
     3.  console.log the results after each conditional
  ********************************************/
-var weather = "Cloudy";
-var sunny = prompt("What is the weather like today?")
 var waves = 10;
-if (weather === sunny ) {
-    console.log("bobsMood is happy!");
-} else{
-    
-    console.log("bobsMood is sad...");
-}
+var weather = "Sunny";
 
+if (weather == "Sunny"){
+    if (waves = 10) {
+        bobsMood = "Pumped";
+    
+} else if
 
 
 /*
