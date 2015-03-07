@@ -37,6 +37,19 @@ calcArea(40,50);
     }
     var ranNum = randomizer(min,max);
     console.log(ranNum);
+    
+    //ANONYMOUS FUNCTIONS
+    
+    var width = 10;
+    var height = 20;
+    
+    var areaTotal = function(w,h){
+        var area = w*h;
+        console.log(area);
+        return area;
+        
+    }
+    var total = areaTotal(width,height);
    
     
     
