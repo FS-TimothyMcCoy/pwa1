@@ -287,7 +287,8 @@ console.log(nav2);
         Will be used in ALL future assignments.
     */
     console.log('------------ TRAVERSAL -------------------');
-
+var apple = document.querySelectorAll('#nav li a')[2];
+console.log(apple);
 
 
 
@@ -306,7 +307,15 @@ console.log(nav2);
 
         attr = href, src, class
 */
-
+var navLinks = document.querySelectorAll('#nav li');
+for(i = 0;i<navLinks.length; i++){
+    var href = navLinks[i].firstChild.getAttribute('href');
+    console.log("Manipulation HREF:", href);
+    //check all classes
+    var aClass = navLinks[1].firstChild.gettAttribute('class');
+    console.log('Manipulation Class:', aClass);
+    
+}
 
 
 /*
@@ -324,7 +333,8 @@ console.log(nav2);
 */
 
 console.log('------------ Manipulating CSS Classes -------------------');
-
+navLinks[2].firstChild.setAttribute('class', 'navitem active');
+var changeClass = navLinks[1].firstChild.setAttribute('href', 'http://google.com')
 
 /*
 	==================================================================
@@ -336,9 +346,15 @@ console.log('------------ Manipulating CSS Classes -------------------');
 
 Sample Link: http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWFPIUQQ3K.MEDIUM.jpg
 */
+var navLinks = document.querySelectorAll('#nav a');
+console.log(navLinks[2]);
 
 
+console.log(navLinks[2].innerHTML);
+navLinks2.innerHTML = ("This link rocks");
 
-/*
+
+}
+
 
 })(); // end wrapper
