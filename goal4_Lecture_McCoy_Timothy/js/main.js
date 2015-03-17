@@ -354,7 +354,7 @@ console.log(navLinks[2].innerHTML);
 navLinks2.innerHTML = ("This link rocks");
 
 
-}
+
 
 
 })(); // end wrapper
