@@ -15,7 +15,6 @@
   <graph edgedefault="directed" id="G">
     <data key="d0"/>
     <node id="n0">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="40.0" width="80.0" x="311.0" y="74.0"/>
@@ -32,18 +31,13 @@
       </data>
     </node>
     <node id="n1">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.internalStorage">
-          <y:Geometry height="123.0" width="235.0" x="233.5" y="161.0"/>
+          <y:Geometry height="151.3756440933107" width="286.84048188757697" x="207.57975905621151" y="132.6243559066893"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.9296875" modelName="custom" textColor="#000000" visible="true" width="209.11328125" x="12.943359375" y="10.03515625">playerOneName = Captain America
-playerTwoName = Scorpion
-player1Damage = 20 
-player2Damage = 20
-playerOneHealth = 100
-playerTwoHealth = 100
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" modelName="custom" textColor="#000000" visible="true" width="275.212890625" x="5.813795631288485" y="52.488603296655356">playerOneName = ["Captain America",100,20];
+playerTwoName = ["Scorpion",100,20];
 round = 0
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -56,7 +50,6 @@ round = 0
       </data>
     </node>
     <node id="n2">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="80.0" x="311.0" y="321.0"/>
@@ -73,7 +66,6 @@ round = 0
       </data>
     </node>
     <node id="n3">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="47.0" width="157.5" x="272.25" y="391.0"/>
@@ -90,7 +82,6 @@ round = 0
       </data>
     </node>
     <node id="n4">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="47.0" width="96.0" x="303.0" y="487.0"/>
@@ -108,7 +99,6 @@ fight()<y:LabelModel>
       </data>
     </node>
     <node id="n5">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="40.0" width="80.0" x="311.0" y="593.0"/>
@@ -125,7 +115,6 @@ fight()<y:LabelModel>
       </data>
     </node>
     <node id="n6">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="47.0" width="124.27083333333337" x="662.2815907320874" y="67.0"/>
@@ -143,13 +132,12 @@ fight();<y:LabelModel>
       </data>
     </node>
     <node id="n7">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.internalStorage">
           <y:Geometry height="105.62323664672527" width="181.82916031388402" x="633.502427241812" y="178.37676335327467"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="74.6640625" modelName="custom" textColor="#000000" visible="true" width="81.3203125" x="50.25442390694195" y="15.479587073362609">minDamage1
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="74.6640625" modelName="custom" textColor="#000000" visible="true" width="81.3203125" x="50.254423906942066" y="15.479587073362609">minDamage1
 minDamage2
 f1
 f2
@@ -164,13 +152,12 @@ result<y:LabelModel>
       </data>
     </node>
     <node id="n8">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="89.62323664672545" width="265.62607348885115" x="591.6039706543286" y="313.37626677605795"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="247.796875" x="8.91459924442563" y="35.74521207336272">Halve playerOneDamage for minDamage1<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="248.95703125" x="8.334521119425517" y="35.74521207336272">Halve playerOneName[2] for minDamage1<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -181,13 +168,12 @@ result<y:LabelModel>
       </data>
     </node>
     <node id="n9">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="78.89308206433077" width="265.62607348885115" x="591.6039706543286" y="455.10691793566923"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="248.546875" x="8.539599244425517" y="30.38013478216544">Halve playerTwoDamage for minDamage2<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="249.70703125" x="7.959521119425517" y="30.380134782165385">Halve playerTwoName[2] for minDamage2<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -198,14 +184,13 @@ result<y:LabelModel>
       </data>
     </node>
     <node id="n10">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="78.89308206433077" width="265.62607348885115" x="591.6039706543287" y="573.5534589678346"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="240.677734375" x="12.474169556925517" y="23.31372853216544">Player One took damage
-playerOneHealth = playerOneHealth - f1<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="263.154296875" x="1.2358883069256308" y="23.31372853216544">Player One took damage
+playerOneName[1] = playerOneName[1] - f1<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -216,14 +201,13 @@ playerOneHealth = playerOneHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n11">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="78.89308206433077" width="251.4831345563672" x="598.6754401205708" y="688.4529339385083"/>
+          <y:Geometry height="78.89308206433077" width="280.6529461046151" x="584.0905343464468" y="688.4529339385083"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="242.177734375" x="4.652700090683538" y="23.31372853216544">Player two took damage
-playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="264.654296875" x="7.99932461480762" y="23.31372853216544">Player two took damage
+playerTwoName[1] = playerTwoName[1] - f1<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -234,13 +218,12 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n12">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.display">
           <y:Geometry height="78.89308206433077" width="309.8227576528633" x="569.5056285723226" y="815.0246896684437"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="293.86328125" x="7.979738201431701" y="30.380134782165328">Displays both player's names and health numbers<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="293.86328125" x="7.979738201431701" y="30.38013478216544">Displays both player's names and health numbers<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -251,7 +234,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n13">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.91080629904434" width="265.62607348885115" x="591.6039706543288" y="943.1950737440793"/>
@@ -268,7 +250,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n14">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.display">
           <y:Geometry height="55.91080629904445" width="165.74156727818365" x="641.5462237596626" y="1048.3831820544287"/>
@@ -286,7 +267,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n15">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="151.3756440933107" width="286.84048188757697" x="580.9967664549658" y="1189.0810348136006"/>
@@ -303,13 +283,12 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n16">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="80.0" x="423.5303532766561" y="1467.0223044538116"/>
+          <y:Geometry height="40.0" width="157.5" x="384.7803532766561" y="1467.0223044538116"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="150.35546875" x="-35.177734375" y="10.93359375">increment round variable<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="150.35546875" x="3.572265625" y="10.93359375">increment round variable<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -320,13 +299,12 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n17">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="80.0" x="423.5303532766561" y="1594.3087548461667"/>
+          <y:Geometry height="47.0" width="181.82916031388407" x="372.6157731197141" y="1587.3087548461667"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="174.431640625" x="-47.2158203125" y="10.93359375">Alert user to ending of round<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="174.431640625" x="3.6987598444420655" y="14.43359375">Alert user to ending of round<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -337,13 +315,12 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n18">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="80.0" x="911.4617464473506" y="1467.0223044538116"/>
+          <y:Geometry height="40.0" width="136.5717557299355" x="883.1758685823828" y="1467.0223044538116"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="135.77734375" x="-27.888671875" y="10.93359375">Alert user to the result<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="135.77734375" x="0.39720598996768786" y="10.93359375">Alert user to the result<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -354,13 +331,12 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n19">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="80.0" x="911.4617464473506" y="1613.7552958783322"/>
+          <y:Geometry height="47.0" width="136.5717557299355" x="883.1758685823828" y="1587.3087548461667"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="129.958984375" x="-24.9794921875" y="10.93359375">Break away from loop<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="129.958984375" x="3.306385677467688" y="14.43359375">Break away from loop<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -371,7 +347,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n20">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="40.0" width="80.0" x="674.5675193282452" y="1705.7735926404332"/>
@@ -389,7 +364,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n21">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="40.0" width="80.0" x="674.5675193282455" y="1847.2029819652719"/>
@@ -406,7 +380,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n22">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="55.91080629904445" width="136.57175572993538" x="1249.424035523459" y="62.544596850477774"/>
@@ -423,7 +396,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n23">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.internalStorage">
           <y:Geometry height="40.0" width="80.0" x="1277.7099133884267" y="178.37676335327467"/>
@@ -440,7 +412,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n24">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.91080629904445" width="165.74156727818354" x="1234.839129749335" y="276.0450272746931"/>
@@ -457,7 +428,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n25">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="125.06977767889066" width="265.62607348885103" x="1184.8968766440012" y="389.624097495156"/>
@@ -477,13 +447,12 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n26">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.91080629904445" width="148.94682729585907" x="1064.6818957178882" y="544.6938751740466"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="137.669921875" x="5.638452710429533" y="18.888996899522226">result = "You both die"<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="137.669921875" x="5.638452710429419" y="18.888996899522226">result = "You both die"<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -494,13 +463,12 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n27">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="105.62323664672527" width="224.9651240579601" x="1509.300538407851" y="519.8376600002063"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="166.10546875" x="29.429827653980055" y="43.745212073362666">If player one's is less than 1<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="166.10546875" x="29.429827653980055" y="43.74521207336261">If player one's is less than 1<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -511,7 +479,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n28">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.decision">
           <y:Geometry height="78.89308206433077" width="224.9651240579601" x="1719.676755028549" y="655.4608966469316"/>
@@ -528,7 +495,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n29">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.91080629904445" width="251.48313455636708" x="1257.817403851484" y="639.6038355794154"/>
@@ -545,7 +511,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n30">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="78.89308206433077" width="224.9651240579601" x="1502.00608468922" y="764.3539787112624"/>
@@ -562,7 +527,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n31">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="40.0" width="80.0" x="1305.9957912533946" y="1025.6207906963396"/>
@@ -580,13 +544,12 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <node id="n32">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.terminator">
           <y:Geometry height="55.91080629904445" width="212.59005249203642" x="1239.7007650073765" y="1121.4882873028525"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="185.201171875" x="13.694440308518324" y="18.888996899522226">Return result end winner check<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="185.201171875" x="13.694440308518097" y="18.888996899522226">Return result end winner check<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -597,7 +560,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </node>
     <edge id="e0" source="n0" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -608,7 +570,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e1" source="n1" target="n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -619,7 +580,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e2" source="n2" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -630,7 +590,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e3" source="n3" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -641,7 +600,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e4" source="n4" target="n5">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -652,7 +610,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e5" source="n15" target="n18">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -674,7 +631,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e6" source="n15" target="n16">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -696,7 +652,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e7" source="n16" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -707,7 +662,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e8" source="n18" target="n19">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -718,7 +672,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e9" source="n17" target="n20">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -731,7 +684,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e10" source="n19" target="n20">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -744,7 +696,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e11" source="n20" target="n21">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -755,7 +706,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e12" source="n7" target="n8">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -766,7 +716,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e13" source="n8" target="n9">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -777,7 +726,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e14" source="n9" target="n10">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -788,7 +736,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e15" source="n10" target="n11">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -799,7 +746,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e16" source="n11" target="n12">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -810,7 +756,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e17" source="n12" target="n13">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -821,7 +766,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e18" source="n13" target="n14">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -832,7 +776,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e19" source="n14" target="n15">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -843,7 +786,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e20" source="n6" target="n7">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -854,7 +796,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e21" source="n22" target="n23">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -865,7 +806,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e22" source="n23" target="n24">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -876,7 +816,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e23" source="n24" target="n25">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -887,7 +826,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e24" source="n25" target="n26">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -900,7 +838,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e25" source="n25" target="n27">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -913,7 +850,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e26" source="n27" target="n28">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -926,7 +862,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e27" source="n27" target="n29">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -940,7 +875,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e28" source="n28" target="n30">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -953,7 +887,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e29" source="n30" target="n31">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -966,7 +899,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e30" source="n29" target="n31">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -977,7 +909,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e31" source="n26" target="n31">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -990,7 +921,6 @@ playerTwoHealth = playerTwoHealth - f1<y:LabelModel>
       </data>
     </edge>
     <edge id="e32" source="n31" target="n32">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
