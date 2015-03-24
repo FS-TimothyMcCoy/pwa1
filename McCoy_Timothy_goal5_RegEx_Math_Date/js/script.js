@@ -89,7 +89,7 @@ STUDENT ACTIVITY
 */
 
 var email = /(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})/;
-var str ="my personal email is kjrohr@gmail.com but my school email is kjrohr@fullsail.edu";
+var str ="my personal email is tsuyoshishou@gmail.com but my school email is tcmccoy@fullsail.edu";
 console.log(email.exec(str));
 
 console.log(email.test(str));

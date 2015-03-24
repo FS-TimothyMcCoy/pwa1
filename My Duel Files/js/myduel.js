@@ -40,14 +40,14 @@ PWA1*/
         /*(playerOne[0]+":"+playerOneName[1]+"  *START*  "+playerTwoName[0]+":"+playerTwoName[1]);*/
         for ( var i = 0; i < 10; i++) {
             //random formula is - Math.floor(Math.random() * (max - min) + min);
-            var minDamage1 = playerOne.health * .5;
-            var minDamage2 = playerTwo.health * .5;
-            var f1 = Math.floor(Math.random()*(playerOne.health-minDamage1)+minDamage1);
-            var f2 = Math.floor(Math.random()*(playerTwo.health-minDamage2)+minDamage2);
+            var minDamage1 = playerOne.damage * .5;
+            var minDamage2 = playerTwo.damage * .5;
+            var f1 = Math.floor(Math.random()*(playerOne.damage-minDamage1)+minDamage1);
+            var f2 = Math.floor(Math.random()*(playerTwo.damage-minDamage2)+minDamage2);
             
             //Inflict Damage to opponent
-            playerOne.damage -= f1;
-            playerTwo.damage -= f2;
+            playerOne.health -= f1;
+            playerTwo.health -= f2;
             
             //console log
             console.log(playerOne.name+": "+playerOne.health + " " + playerTwo.name+":"+playerTwo.health);
@@ -83,10 +83,12 @@ PWA1*/
     };
     console.log("program");
     
-    //document.getElementByClassName(".buttonblue").onclick = fight();
+    
     
     
 
     /******* The code below starts the program **********/
-fight();
+var variableName = document.getElementById("fight_btn");
+variableName.addEventListener("click", fight, false);
+
 })();
