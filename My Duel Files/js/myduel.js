@@ -9,8 +9,21 @@ PWA1*/
     
     console.log("FIGHT!!!");
     //player name
-    var playerOneName = ["Captain America", 100 ,20];
-    var playerTwoName = ["Scorpion", 100, 20];
+    var playerOne = {
+        
+        name: "Captain America",
+        damage : 20,
+        health: 100
+        
+    };
+    
+    
+    var playerTwo = {
+        name: "Scorpion",
+    damage: 20,
+    health: 100
+    
+    };
     
     //player damage
     /*var player1Damage = 20;
@@ -24,20 +37,20 @@ PWA1*/
     var round = 0;
     
     function fight(){
-        alert(playerOneName[0]+":"+playerOneName[1]+"  *START*  "+playerTwoName[0]+":"+playerTwoName[1]);
+        /*(playerOne[0]+":"+playerOneName[1]+"  *START*  "+playerTwoName[0]+":"+playerTwoName[1]);*/
         for ( var i = 0; i < 10; i++) {
             //random formula is - Math.floor(Math.random() * (max - min) + min);
-            var minDamage1 = playerOneName[2] * .5;
-            var minDamage2 = playerTwoName[2] * .5;
-            var f1 = Math.floor(Math.random()*(playerOneName[2]-minDamage1)+minDamage1);
-            var f2 = Math.floor(Math.random()*(playerTwoName[2]-minDamage2)+minDamage2);
+            var minDamage1 = playerOne.health * .5;
+            var minDamage2 = playerTwo.health * .5;
+            var f1 = Math.floor(Math.random()*(playerOne.health-minDamage1)+minDamage1);
+            var f2 = Math.floor(Math.random()*(playerTwo.health-minDamage2)+minDamage2);
             
             //Inflict Damage to opponent
-            playerOneName[1] -= f1;
-            playerTwoName[1] -= f2;
+            playerOne.damage -= f1;
+            playerTwo.damage -= f2;
             
             //console log
-            console.log(playerOneName[0]+": "+playerOneName[1] + " " + playerTwoName[0]+":"+playerTwoName[1]);
+            console.log(playerOne.name+": "+playerOne.health + " " + playerTwo.name+":"+playerTwo.health);
             
             //Check for winner
             var result = winnerCheck();
@@ -45,9 +58,9 @@ PWA1*/
             if (result === "no winner")
             {
                 round++;
-                alert(playerOneName[0]+":"+playerOneName[1]+"  *ROUND "+round+" OVER"+"*  "+playerTwoName[0]+":"+playerTwoName[1]);
+                /*alert(playerOneName[0]+":"+playerOneName[1]+"  *ROUND "+round+" OVER"+"*  "+playerTwoName[0]+":"+playerTwoName[1]);*/
             }else{
-                alert(result);
+                /*alert(result);*/
                 break;
                 
             };
@@ -57,17 +70,20 @@ PWA1*/
     };
     function winnerCheck(){
         var result="no winner";
-        if (playerOneName[1]<1 && playerTwoName[1]<1)
+        if (playerOne.health<1 && playerTwo.health<1)
         {
             result = "You Both Die";
-        } else if(playerOneName[1]<1){
-            result =playerTwoName[0]+" WINS!!!"
-        } else if (playerTwoName[1]<1)
+        } else if(playerOne.health<1){
+            result =playerTwo.name+" WINS!!!"
+        } else if (playerTwo.health<1)
         {
-            result = playerOneName[0]+" WINS!!!"
+            result = playerOne.name+" WINS!!!"
         };
        return result;
     };
+    console.log("program");
+    
+    //document.getElementByClassName(".buttonblue").onclick = fight();
     
     
 
